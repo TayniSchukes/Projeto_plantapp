@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Plantapp. - Plantas</title>
+    <style>
+        body {
+            background-color: #d2dcd7;
+        }
+        .plantas fieldset {
+            position: absolute;
+            text-align: center;
+            width: 250px;
+            height: 320px;
+            background-color: #76a490;
+            border-radius: 25px;
+            border-style: none;
+            top: 23%;
+            left: 27%;
+        }
+        .adubos fieldset {
+            position: absolute;
+            text-align: center;
+            width: 250px;
+            height: 320px;
+            background-color: #76a490;
+            border-radius: 25px;
+            border-style: none;
+            left: 65%;
+            bottom: 22%;
+        }
+        .fundo {
+            background-color: #284b40;
+            color: #284b40;
+            width: 280px;
+            height: 330px;
+            border-radius: 25px;
+        }
+        .titulo1 {
+            margin-left: 26%; 
+        }
+        .titulo2 {
+            position: relative;
+            margin-left: 63%;
+            margin-top: -30%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logoclaro" src="../images/logoclaro.png" alt="Logo da empresa">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="plantas.html">Plantas</a></li>
+                <li><a href="sensor.html">Sensores</a></li>
+                <li><a href="calendario.html">Calendário</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="titulo1">
+        <h1>Cadastre suas plantas</h1>
+    </div>
+    <div class="fundo" style="margin-left: 26%">.</div>
+    <form action="" class="plantas">
+        <fieldset>
+            <label><input type="text" placeholder="Tipo de planta"></label><br>
+            <label><input type="number" placeholder="Quantidade"></label><br>
+        </fieldset>
+    </form>
+    <div class="botoes" style="left: 30%;bottom: 200px; position: absolute; width: 200px;">
+        <li><a href="confirmarplanta.html" style="font-size: 15px;">FINALIZAR CADASTRO</a></li>
+    </div>
+    <div class="titulo2">
+        <h1>Cadastre seus adubos</h1>
+    </div>
+    <div class="fundo" style="margin-left: 64%;">.</div>
+    <form action="" class="adubos">
+        <fieldset>
+            <label><input type="text" placeholder="Nome do adubo"></label><br>
+            <label><input type="text" placeholder="Frequência"></label><br>
+        </fieldset>
+    </form>
+    <div class="botoes" style="left: 68%;bottom: 200px; position: absolute; width: 200px;">
+        <li><a href="confirmaradubo.html" style="font-size: 15px;">FINALIZAR CADASTRO</a></li>
+    </div>
+</body>
+</html>
